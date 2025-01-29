@@ -1,7 +1,7 @@
 var LAYOUT = [
   {
     type: "menu",
-    title: "About This PC",
+    title: "このPCについて",
     cmds: ["gnome-control-center", "info-overview"],
   },
   {
@@ -9,7 +9,7 @@ var LAYOUT = [
   },
   {
     type: "menu",
-    title: "System Preferences...",
+    title: "システム環境設定...",
     cmds: ["gnome-control-center"],
   },
   {
@@ -22,14 +22,14 @@ var LAYOUT = [
   },
   {
     type: "expandable-menu",
-    title: "Recent Items"
+    title: "最近使った項目"
   },
   {
     type: "separator",
   },
   {
     type: "menu",
-    title: "Force Quit",
+    title: "強制終了",
     cmds: ["xkill"],
   },
   {
@@ -37,17 +37,17 @@ var LAYOUT = [
   },
   {
     type: "menu",
-    title: "Sleep",
+    title: "スリープ",
     cmds: ["systemctl", "suspend"],
   },
   {
     type: "menu",
-    title: "Restart...",
+    title: "再起動...",
     cmds: ["gnome-session-quit", "--reboot"],
   },
   {
     type: "menu",
-    title: "Shut Down...",
+    title: "シャットダウン...",
     cmds: ["gnome-session-quit", "--power-off"],
   },
   {
@@ -55,7 +55,7 @@ var LAYOUT = [
   },
   {
     type: "menu",
-    title: "Logout...",
+    title: "ログアウト...",
     cmds: ["gnome-session-quit", "--logout"],
   },
 ];
