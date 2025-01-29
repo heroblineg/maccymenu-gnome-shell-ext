@@ -1,9 +1,9 @@
 {
-  "name": "Maccy Menu",
-  "description": "Menu Item like MacOS",
-  "uuid": "maccymenu@dgvai.com",
+  "name": "AM Logo Menu",
+  "description": "Menu of AMLinux",
+  "uuid": "am-menu@am-l.f5.si",
   "shell-version": ["42", "43", "44"],
   "gettext-domain": "gnome-shell-extension-maccymenu",
   "settings-schema": "org.gnome.shell.extensions.maccymenu",
-  "url": "https://github.com/dgvai/maccymenu-gnome-shell-ext"
+  "url": "https://github.com/heroblineg/maccymenu-gnome-shell-ext"
 }
